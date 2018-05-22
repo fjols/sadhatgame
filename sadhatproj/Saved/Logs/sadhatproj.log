@@ -1,4 +1,4 @@
-﻿Log file open, 05/21/18 22:21:33
+﻿Log file open, 05/22/18 12:04:47
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: sadhatproj
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-131433693) SRandInit(-131433693).
+LogInit: Display: RandInit(-1248840452) SRandInit(-1248840452).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.205694
+LogStats: Stats thread started at 1.204940
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -106,744 +106,414 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.21-21.21.34:443][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.21-21.21.34:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.21-21.21.34:457][  0]LogInit: Computer: CHARLIE-SAN
-[2018.05.21-21.21.34:457][  0]LogInit: User: Charlie
-[2018.05.21-21.21.34:457][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.21-21.21.34:458][  0]LogInit: High frequency timer resolution =3.020483 MHz
-[2018.05.21-21.21.34:458][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.05.21-21.21.34:458][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.21-21.21.34:458][  0]LogMemory: Process Physical Memory: 278.25 MB used, 278.25 MB peak
-[2018.05.21-21.21.34:458][  0]LogMemory: Process Virtual Memory: 274.13 MB used, 274.13 MB peak
-[2018.05.21-21.21.34:458][  0]LogMemory: Physical Memory: 6383.15 MB used,  1764.21 MB free, 8147.37 MB total
-[2018.05.21-21.21.34:458][  0]LogMemory: Virtual Memory: 706.38 MB used,  1764.21 MB free, 134217728.00 MB total
-[2018.05.21-21.21.34:810][  0]LogInit: Using OS detected language (en-GB).
-[2018.05.21-21.21.34:810][  0]LogInit: Using OS detected locale (en-GB).
-[2018.05.21-21.21.34:816][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.05.21-21.21.35:808][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.21-21.21.35:880][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.05.21-21.21.35:880][  0]LogD3D11RHI:       4043/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.05.21-21.21.35:913][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.21-21.21.35:913][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.21-21.21.35:913][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.21-21.21.35:921][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.21-21.21.35:921][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.21-21.21.35:921][  0]LogWindows: EnumDisplayDevices:
-[2018.05.21-21.21.35:922][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.05.21-21.21.35:922][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.05.21-21.21.35:922][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.05.21-21.21.35:922][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.05.21-21.21.35:922][  0]LogWindows:    4. 'LMIMIRR' (P:0 D:0)
-[2018.05.21-21.21.35:922][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.21-21.21.35:922][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.05.21-21.21.35:922][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.21-21.21.35:922][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.21-21.21.35:923][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.05.21-21.21.35:970][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.21-21.21.35:996][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.21-21.21.36:048][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Intermediate/Shaders/WorkingDirectory/13324/).
-[2018.05.21-21.21.36:048][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Charlie.CHARLIE-SAN/AppData/Local/Temp/UnrealShaderWorkingDir/D817380C4EB5DA7FE0AF54B5F0F70405/'.
-[2018.05.21-21.21.36:048][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.21-21.21.37:628][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.21-21.21.37:724][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.21-21.21.37:822][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.21-21.21.37:964][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.21-21.21.38:060][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.21-21.21.38:155][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.21-21.21.38:249][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.21-21.21.38:345][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.21-21.21.38:434][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.21-21.21.38:528][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.21-21.21.38:621][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.21-21.21.38:714][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.21-21.21.38:813][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.21-21.21.38:910][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.21-21.21.39:008][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.21-21.21.39:197][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.21-21.21.39:197][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.21-21.21.39:275][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.21-21.21.39:431][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.21-21.21.39:481][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.21-21.21.39:574][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.21-21.21.39:669][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.21-21.21.39:765][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.21-21.21.39:860][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.21-21.21.39:860][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.21-21.21.40:749][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.21-21.21.40:850][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.05.21-21.21.40:851][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.05.21-21.21.40:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.21-21.21.40:851][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.21-21.21.40:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.21-21.21.40:851][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.21-21.21.40:872][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.21-21.21.40:885][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.21-21.21.40:898][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.21-21.21.40:898][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.21-21.21.40:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.21-21.21.40:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.21-21.21.41:320][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2018.05.21-21.21.41:497][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.21-21.21.41:701][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.05.21-21.21.42:227][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.21-21.21.42:309][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.21-21.21.42:309][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.21-21.21.42:309][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.21-21.21.42:309][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.21-21.21.42:309][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.21-21.21.42:828][  0]LogNetVersion: sadhatproj , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3242127025)
-[2018.05.21-21.21.43:212][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.110834 seconds
-[2018.05.21-21.21.43:224][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.05.21-21.21.43:224][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2018.05.21-21.21.43:224][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.21-21.21.43:327][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.21-21.21.47:792][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.21-21.21.47:867][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.21-21.21.49:115][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.21-21.21.50:006][  0]SourceControl: Source control is disabled
-[2018.05.21-21.21.50:007][  0]SourceControl: Source control is disabled
-[2018.05.21-21.21.50:109][  0]SourceControl: Source control is disabled
-[2018.05.21-21.21.50:211][  0]SourceControl: Source control is disabled
-[2018.05.21-21.21.51:440][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.21-21.21.51:964][  0]LogOcInput: OculusInput pre-init called
-[2018.05.21-21.21.52:442][  0]LogEngine: Initializing Engine...
-[2018.05.21-21.21.52:460][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2018.05.21-21.21.52:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.21-21.21.52:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.21-21.21.52:993][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.21-21.21.53:007][  0]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.21-21.21.53:026][  0]LogInit: FAudioDevice initialized.
-[2018.05.21-21.21.55:244][  0]LogDerivedDataCache: Saved boot cache 2.22s 93MB C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.05.21-21.21.55:258][  0]LogInit: Texture streaming: Enabled
-[2018.05.21-21.21.55:452][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.21-21.21.56:216][  0]LogInit: Transaction tracking system initialized
-[2018.05.21-21.21.56:852][  0]BlueprintLog: New page: Editor Load
-[2018.05.21-21.21.58:852][  0]LogInit: Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
-[2018.05.21-21.21.59:964][  0]LocalizationService: Localization service is disabled
-[2018.05.21-21.22.01:411][  0]LogConsoleResponse: Display: 
-[2018.05.21-21.22.01:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/' took 0.01s
-[2018.05.21-21.22.01:756][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.21-21.22.01:756][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.21-21.22.01:756][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.21-21.22.03:993][  0]SourceControl: Source control is disabled
-[2018.05.21-21.22.04:032][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.17/FeaturePacks/StarterContent.upack)
-[2018.05.21-21.22.04:152][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.05.21-21.22.04:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.05.21-21.22.04:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.05.21-21.22.04:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.05.21-21.22.04:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.05.21-21.22.04:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.05.21-21.22.04:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.05.21-21.22.04:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.05.21-21.22.04:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.05.21-21.22.04:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.05.21-21.22.04:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.05.21-21.22.04:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.05.21-21.22.04:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.05.21-21.22.04:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.05.21-21.22.04:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.05.21-21.22.04:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.05.21-21.22.04:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.05.21-21.22.04:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.05.21-21.22.04:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Fire01.uasset"
-[2018.05.21-21.22.04:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.05.21-21.22.04:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.05.21-21.22.04:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.05.21-21.22.05:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Light01.uasset"
-[2018.05.21-21.22.05:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.05.21-21.22.05:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Light02.uasset"
-[2018.05.21-21.22.05:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.05.21-21.22.05:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.05.21-21.22.05:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.05.21-21.22.05:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.05.21-21.22.05:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.05.21-21.22.06:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.05.21-21.22.06:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.05.21-21.22.06:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.05.21-21.22.06:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.05.21-21.22.06:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Steam01.uasset"
-[2018.05.21-21.22.06:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.05.21-21.22.06:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.05.21-21.22.06:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.05.21-21.22.06:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.05.21-21.22.06:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.05.21-21.22.07:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.05.21-21.22.07:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.05.21-21.22.07:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.05.21-21.22.07:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.05.21-21.22.07:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.05.21-21.22.07:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.05.21-21.22.07:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.05.21-21.22.07:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.05.21-21.22.07:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.05.21-21.22.07:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.05.21-21.22.07:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.05.21-21.22.07:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.05.21-21.22.08:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.05.21-21.22.08:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.05.21-21.22.09:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.05.21-21.22.10:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.05.21-21.22.10:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.05.21-21.22.12:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Maps/StarterMap.umap"
-[2018.05.21-21.22.13:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.05.21-21.22.13:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.05.21-21.22.13:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.05.21-21.22.14:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.05.21-21.22.14:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.05.21-21.22.14:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.05.21-21.22.14:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.05.21-21.22.14:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.05.21-21.22.14:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.05.21-21.22.14:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.05.21-21.22.14:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.05.21-21.22.14:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.05.21-21.22.14:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.05.21-21.22.14:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.05.21-21.22.14:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.05.21-21.22.14:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.05.21-21.22.14:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.05.21-21.22.14:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.05.21-21.22.14:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.05.21-21.22.14:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.05.21-21.22.14:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.05.21-21.22.14:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.05.21-21.22.14:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.05.21-21.22.14:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.05.21-21.22.14:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.05.21-21.22.14:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.05.21-21.22.14:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.05.21-21.22.14:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.05.21-21.22.14:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.05.21-21.22.14:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.05.21-21.22.14:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.05.21-21.22.14:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.05.21-21.22.14:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.05.21-21.22.14:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.05.21-21.22.14:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.05.21-21.22.14:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.05.21-21.22.14:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.05.21-21.22.14:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.05.21-21.22.14:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.05.21-21.22.14:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.05.21-21.22.15:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.05.21-21.22.15:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.05.21-21.22.15:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.05.21-21.22.15:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.05.21-21.22.15:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.05.21-21.22.15:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.05.21-21.22.15:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.05.21-21.22.15:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.05.21-21.22.15:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.05.21-21.22.15:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.05.21-21.22.15:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.05.21-21.22.15:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.05.21-21.22.15:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.05.21-21.22.15:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.05.21-21.22.15:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.05.21-21.22.15:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.05.21-21.22.15:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.05.21-21.22.15:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.05.21-21.22.15:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.05.21-21.22.15:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.05.21-21.22.15:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.05.21-21.22.15:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.05.21-21.22.15:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.05.21-21.22.15:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.05.21-21.22.15:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.05.21-21.22.15:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Door.uasset"
-[2018.05.21-21.22.15:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.05.21-21.22.15:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.05.21-21.22.15:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.05.21-21.22.15:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.05.21-21.22.15:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.05.21-21.22.15:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.05.21-21.22.15:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.05.21-21.22.15:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.05.21-21.22.15:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.05.21-21.22.15:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.05.21-21.22.15:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.05.21-21.22.15:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.05.21-21.22.15:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.05.21-21.22.15:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.05.21-21.22.15:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.05.21-21.22.15:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.05.21-21.22.15:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.05.21-21.22.15:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.05.21-21.22.15:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.05.21-21.22.15:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.05.21-21.22.16:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.05.21-21.22.16:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.05.21-21.22.16:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.05.21-21.22.16:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.05.21-21.22.16:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.05.21-21.22.16:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.05.21-21.22.16:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.05.21-21.22.16:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.05.21-21.22.16:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.05.21-21.22.16:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.05.21-21.22.16:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.05.21-21.22.16:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.05.21-21.22.16:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.05.21-21.22.16:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.05.21-21.22.16:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.05.21-21.22.16:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.05.21-21.22.16:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.05.21-21.22.16:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.05.21-21.22.16:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.05.21-21.22.16:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.05.21-21.22.16:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.05.21-21.22.16:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.05.21-21.22.16:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.05.21-21.22.16:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.05.21-21.22.16:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.05.21-21.22.17:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.05.21-21.22.17:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.05.21-21.22.17:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.05.21-21.22.17:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.05.21-21.22.17:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.05.21-21.22.18:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.05.21-21.22.18:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.05.21-21.22.18:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.05.21-21.22.18:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.05.21-21.22.19:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.05.21-21.22.19:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.05.21-21.22.19:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.05.21-21.22.19:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.05.21-21.22.19:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.05.21-21.22.19:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.05.21-21.22.19:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.05.21-21.22.19:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.05.21-21.22.19:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.05.21-21.22.19:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.05.21-21.22.19:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.05.21-21.22.20:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.05.21-21.22.22:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.05.21-21.22.22:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.05.21-21.22.22:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.05.21-21.22.22:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.05.21-21.22.22:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.05.21-21.22.23:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.05.21-21.22.23:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.05.21-21.22.23:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.05.21-21.22.23:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.05.21-21.22.23:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.05.21-21.22.23:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.05.21-21.22.23:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.05.21-21.22.23:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.05.21-21.22.23:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.05.21-21.22.23:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.05.21-21.22.23:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.05.21-21.22.23:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.05.21-21.22.23:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.05.21-21.22.23:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.05.21-21.22.23:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.05.21-21.22.23:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.05.21-21.22.23:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.05.21-21.22.23:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.05.21-21.22.23:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.05.21-21.22.23:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.05.21-21.22.24:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.05.21-21.22.24:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.05.21-21.22.27:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.05.21-21.22.27:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.05.21-21.22.27:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.05.21-21.22.28:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.05.21-21.22.28:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.05.21-21.22.28:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.05.21-21.22.28:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.05.21-21.22.28:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.05.21-21.22.28:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.05.21-21.22.28:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.05.21-21.22.29:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.05.21-21.22.29:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.05.21-21.22.29:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.05.21-21.22.29:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.05.21-21.22.29:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.05.21-21.22.29:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.05.21-21.22.31:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.05.21-21.22.31:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.05.21-21.22.31:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.05.21-21.22.31:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.05.21-21.22.31:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.05.21-21.22.31:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.05.21-21.22.31:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.05.21-21.22.31:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.05.21-21.22.31:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.05.21-21.22.32:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.05.21-21.22.32:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.05.21-21.22.32:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.05.21-21.22.32:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.05.21-21.22.32:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.05.21-21.22.32:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.05.21-21.22.32:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.05.21-21.22.32:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.05.21-21.22.32:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.05.21-21.22.32:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.05.21-21.22.32:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.05.21-21.22.32:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.05.21-21.22.32:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.05.21-21.22.32:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.05.21-21.22.32:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.05.21-21.22.33:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.05.21-21.22.33:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.05.21-21.22.35:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.05.21-21.22.36:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.05.21-21.22.36:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.05.21-21.22.37:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.05.21-21.22.38:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.05.21-21.22.40:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.05.21-21.22.42:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.05.21-21.22.42:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.05.21-21.22.42:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.05.21-21.22.42:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.05.21-21.22.42:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.05.21-21.22.43:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.05.21-21.22.45:311][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.05.21-21.22.46:394][  0]LogSavePackage: Save=406.50ms
-[2018.05.21-21.22.46:394][  0]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Floor_400x400ADBA2C044DFF1A7968765095EBD56362.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.05.21-21.22.46:454][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.05.21-21.22.46:455][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.05.21-21.22.46:522][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.21-21.22.46:634][  0]LightingResults: New page: Lighting Build
-[2018.05.21-21.22.48:806][  0]MapCheck: New page: Map Check
-[2018.05.21-21.22.48:806][  0]LightingResults: New page: Lighting Build
-[2018.05.21-21.22.52:938][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.05.21-21.22.53:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.21-21.22.53:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.21-21.22.54:253][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 267.721ms to complete.
-[2018.05.21-21.22.54:258][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 7.787
-[2018.05.21-21.22.58:058][  0]LogCollectionManager: Loaded 0 collections in 0.002565 seconds
-[2018.05.21-21.22.58:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Collections/' took 0.01s
-[2018.05.21-21.22.58:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/Developers/Charlie/Collections/' took 0.01s
-[2018.05.21-21.22.58:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/Collections/' took 0.01s
-[2018.05.21-21.22.58:307][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.05.21-21.22.58:332][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2386 classes and 500 folders.
-[2018.05.21-21.22.58:768][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.05.21-21.23.00:189][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.05.21-21.23.00:484][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.05.21-21.23.07:629][  0]LogSlate: Took 0.012641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.21-21.23.07:764][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.sadhatproj
-[2018.05.21-21.23.07:764][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.05.21-21.23.07:764][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2018.05.21-21.23.07:764][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.05.21-21.23.07:764][  0]LogSlate: Took 0.046177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.21-21.23.07:972][  0]LogTemp: BranchPath = CHARLIE-SAN/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = CHARLIE-SAN/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2018.05.21-21.23.07:972][  0]LogTemp: MATCHED-Provision:,File:,Cert:
-[2018.05.21-21.23.07:972][  0]LogSlate: Took 0.051418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.21-21.23.08:624][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.05.21-21.23.09:666][  0]LogSlate: Took 0.031074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.21-21.23.10:654][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
-[2018.05.21-21.23.10:655][  0]LogLoad: (Engine Initialization) Total time: 99.00 seconds
-[2018.05.21-21.23.10:655][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.21-21.23.10:677][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.05.21-21.23.10:678][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.05.21-21.23.10:798][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.21-21.23.14:197][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.21-21.23.15:278][  3]LogAssetRegistry: Asset discovery search completed in 93.9807 seconds
-[2018.05.21-21.23.15:293][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.05.21-21.23.15:308][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.014604 seconds (updated 0 objects)
-[2018.05.21-21.24.56:832][166]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.21-21.24.57:566][166]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.21-21.24.58:080][166]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
-[2018.05.21-21.25.01:813][166]LogSlate: Took 0.010861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.21-21.25.03:033][167]LogSlate: Took 0.045373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.21-21.25.14:327][716]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
-[2018.05.21-21.26.02:700][733]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.21-21.27.58:291][852]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Charlie.CHARLIE-SAN/Pictures/sadhat assets/Player.png)
-[2018.05.21-21.27.58:560][852]LogTexture: Display: Building textures: Player (AutoDXT, 64X64)
-[2018.05.21-21.31.52:449][668]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Charlie.CHARLIE-SAN/Pictures/sadhat assets/Player.png)
-[2018.05.21-21.31.52:467][668]LogTexture: Display: Building textures: Player (AutoDXT, 64X64)
-[2018.05.21-21.32.54:822][619]Cmd: QUIT_EDITOR
-[2018.05.21-21.32.55:214][619]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.21-21.32.55:307][619]LogExit: Preparing to exit.
-[2018.05.21-21.32.56:728][619]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/' was aborted.
-[2018.05.21-21.32.57:272][619]LogExit: Editor shut down
-[2018.05.21-21.32.57:281][619]LogExit: Transaction tracking system shut down
-[2018.05.21-21.32.58:065][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.21-21.32.58:065][619]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/' was aborted.
-[2018.05.21-21.32.58:065][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.21-21.32.58:065][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.21-21.32.58:065][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.21-21.33.01:824][619]LogExit: Object subsystem successfully closed.
-[2018.05.21-21.33.02:150][619]LogD3D11RHI: Shutdown
-[2018.05.21-21.33.02:160][619]LogD3D11RHI: CleanupD3DDevice
-[2018.05.21-21.33.02:340][619]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.21-21.33.04:083][619]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
-[2018.05.21-21.33.04:083][619]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
-[2018.05.21-21.33.04:183][619]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2018.05.21-21.33.04:183][619]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
-[2018.05.21-21.33.04:183][619]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2018.05.21-21.33.04:222][619]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2018.05.21-21.33.04:240][619]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2018.05.21-21.33.04:273][619]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2018.05.21-21.33.04:273][619]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2018.05.21-21.33.04:273][619]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2018.05.21-21.33.04:299][619]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/Collections/' was aborted.
-[2018.05.21-21.33.04:299][619]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/Developers/Charlie/Collections/' was aborted.
-[2018.05.21-21.33.04:299][619]LogDirectoryWatcher: A directory notification for 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Collections/' was aborted.
-[2018.05.21-21.33.04:300][619]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2018.05.21-21.33.04:337][619]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2018.05.21-21.33.04:337][619]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2018.05.21-21.33.04:381][619]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2018.05.21-21.33.04:381][619]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2018.05.21-21.33.04:381][619]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2018.05.21-21.33.04:381][619]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2018.05.21-21.33.04:381][619]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2018.05.21-21.33.04:381][619]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2018.05.21-21.33.04:401][619]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2018.05.21-21.33.04:401][619]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2018.05.21-21.33.04:401][619]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2018.05.21-21.33.04:407][619]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2018.05.21-21.33.04:415][619]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2018.05.21-21.33.04:432][619]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module Media (477)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2018.05.21-21.33.04:483][619]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2018.05.21-21.33.04:535][619]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2018.05.21-21.33.04:535][619]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2018.05.21-21.33.04:535][619]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2018.05.21-21.33.04:535][619]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2018.05.21-21.33.04:536][619]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2018.05.21-21.33.04:606][619]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2018.05.21-21.33.04:648][619]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2018.05.21-21.33.04:712][619]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2018.05.21-21.33.04:725][619]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2018.05.21-21.33.04:725][619]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2018.05.21-21.33.04:725][619]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2018.05.21-21.33.04:725][619]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2018.05.21-21.33.04:957][619]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2018.05.21-21.33.04:957][619]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2018.05.21-21.33.04:957][619]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2018.05.21-21.33.04:957][619]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2018.05.21-21.33.04:986][619]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2018.05.21-21.33.04:993][619]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2018.05.21-21.33.04:993][619]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2018.05.21-21.33.05:042][619]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2018.05.21-21.33.05:042][619]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2018.05.21-21.33.05:131][619]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2018.05.21-21.33.05:136][619]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2018.05.21-21.33.05:136][619]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2018.05.21-21.33.05:140][619]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2018.05.21-21.33.05:140][619]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2018.05.21-21.33.05:145][619]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2018.05.21-21.33.05:145][619]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2018.05.21-21.33.05:145][619]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2018.05.21-21.33.05:145][619]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2018.05.21-21.33.05:145][619]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2018.05.21-21.33.05:145][619]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2018.05.21-21.33.05:224][619]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2018.05.21-21.33.05:232][619]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2018.05.21-21.33.05:241][619]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2018.05.21-21.33.05:330][619]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2018.05.21-21.33.05:394][619]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2018.05.21-21.33.05:424][619]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2018.05.21-21.33.05:431][619]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2018.05.21-21.33.05:450][619]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2018.05.21-21.33.05:450][619]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2018.05.21-21.33.05:453][619]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2018.05.21-21.33.05:453][619]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2018.05.21-21.33.05:473][619]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2018.05.21-21.33.05:473][619]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2018.05.21-21.33.05:483][619]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2018.05.21-21.33.05:499][619]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2018.05.21-21.33.05:499][619]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2018.05.21-21.33.05:499][619]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2018.05.21-21.33.05:506][619]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2018.05.21-21.33.05:522][619]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2018.05.21-21.33.05:532][619]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2018.05.21-21.33.05:543][619]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2018.05.21-21.33.05:543][619]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2018.05.21-21.33.05:543][619]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2018.05.21-21.33.05:543][619]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2018.05.21-21.33.05:543][619]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2018.05.21-21.33.05:573][619]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2018.05.21-21.33.05:573][619]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2018.05.21-21.33.05:573][619]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2018.05.21-21.33.05:573][619]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2018.05.21-21.33.05:573][619]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2018.05.21-21.33.05:573][619]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2018.05.21-21.33.05:573][619]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2018.05.21-21.33.05:578][619]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2018.05.21-21.33.05:579][619]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2018.05.21-21.33.05:590][619]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2018.05.21-21.33.05:759][619]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2018.05.21-21.33.05:784][619]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2018.05.21-21.33.05:784][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2018.05.21-21.33.05:784][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2018.05.21-21.33.05:784][619]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2018.05.21-21.33.05:789][619]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2018.05.21-21.33.05:789][619]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2018.05.21-21.33.05:789][619]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2018.05.21-21.33.05:799][619]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2018.05.21-21.33.05:799][619]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2018.05.21-21.33.05:799][619]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2018.05.21-21.33.05:819][619]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2018.05.21-21.33.05:819][619]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2018.05.21-21.33.05:829][619]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2018.05.21-21.33.05:829][619]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2018.05.21-21.33.05:829][619]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2018.05.21-21.33.05:829][619]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2018.05.21-21.33.05:829][619]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2018.05.21-21.33.05:852][619]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2018.05.21-21.33.05:862][619]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2018.05.21-21.33.05:862][619]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2018.05.21-21.33.05:868][619]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2018.05.21-21.33.05:869][619]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2018.05.21-21.33.05:877][619]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2018.05.21-21.33.05:887][619]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2018.05.21-21.33.05:899][619]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2018.05.21-21.33.05:908][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2018.05.21-21.33.05:909][619]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2018.05.21-21.33.05:909][619]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2018.05.21-21.33.05:909][619]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2018.05.21-21.33.05:912][619]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2018.05.21-21.33.05:921][619]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2018.05.21-21.33.05:926][619]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2018.05.21-21.33.05:937][619]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2018.05.21-21.33.05:937][619]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2018.05.21-21.33.05:944][619]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2018.05.21-21.33.05:944][619]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2018.05.21-21.33.05:944][619]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2018.05.21-21.33.05:944][619]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2018.05.21-21.33.05:944][619]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2018.05.21-21.33.05:944][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2018.05.21-21.33.05:944][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2018.05.21-21.33.05:970][619]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2018.05.21-21.33.06:071][619]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2018.05.21-21.33.06:186][619]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2018.05.21-21.33.06:205][619]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2018.05.21-21.33.06:205][619]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2018.05.21-21.33.06:205][619]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2018.05.21-21.33.06:256][619]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2018.05.21-21.33.06:256][619]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2018.05.21-21.33.06:257][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2018.05.21-21.33.06:257][619]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2018.05.21-21.33.06:257][619]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2018.05.21-21.33.06:267][619]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2018.05.21-21.33.06:275][619]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2018.05.21-21.33.06:275][619]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2018.05.21-21.33.06:278][619]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2018.05.21-21.33.06:291][619]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2018.05.21-21.33.06:291][619]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2018.05.21-21.33.06:291][619]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2018.05.21-21.33.06:291][619]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2018.05.21-21.33.06:303][619]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2018.05.21-21.33.06:307][619]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2018.05.21-21.33.06:307][619]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2018.05.21-21.33.06:335][619]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2018.05.21-21.33.06:335][619]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2018.05.21-21.33.06:340][619]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2018.05.21-21.33.06:340][619]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2018.05.21-21.33.06:372][619]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2018.05.21-21.33.06:648][619]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2018.05.21-21.33.06:688][619]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2018.05.21-21.33.06:688][619]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2018.05.21-21.33.06:875][619]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2018.05.21-21.33.06:875][619]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module Core (168)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2018.05.21-21.33.06:879][619]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2018.05.21-21.33.06:958][619]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2018.05.21-21.33.06:992][619]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2018.05.21-21.33.06:992][619]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2018.05.21-21.33.07:039][619]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2018.05.21-21.33.07:039][619]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2018.05.21-21.33.07:183][619]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2018.05.21-21.33.07:231][619]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2018.05.21-21.33.07:232][619]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.05.21-21.33.07:257][619]LogDerivedDataCache: Shutdown
-[2018.05.21-21.33.07:257][619]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.05.21-21.33.07:257][619]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.05.21-21.33.07:296][619]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.05.21-21.33.07:298][619]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.05.21-21.33.07:309][619]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.05.21-21.33.07:313][619]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.05.21-21.33.07:326][619]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.05.21-21.33.07:326][619]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.05.21-21.33.07:326][619]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.05.21-21.33.07:326][619]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2018.05.21-21.33.07:371][619]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2018.05.21-21.33.07:421][619]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.05.21-21.33.07:421][619]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.21-21.33.07:421][619]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.21-21.33.07:421][619]LogOnline: Display: Unloading online subsystem: NULL
-[2018.05.21-21.33.07:540][619]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.21-21.33.07:549][619]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.21-21.33.07:550][619]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.21-21.33.07:571][619]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD06D4667-4B1D-893F-9691-F7A18477FFF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=2d96614f43405f09b0b0be82ce8bbb24%7C49732d51d5944a2db6608e23e96bf5fb%7C2c4c1f75-4c89-448a-89df-a419b7b542ef&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.21-21.33.07:604][619]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.21-21.33.07:652][619]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.21-21.33.07:721][619]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.21-21.33.07:722][619]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.21-21.33.07:768][619]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.21-21.33.07:768][619]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.21-21.33.07:768][619]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.21-21.33.07:769][619]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.21-21.33.07:786][619]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.21-21.33.07:794][619]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.21-21.33.07:794][619]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.21-21.33.07:804][619]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.21-21.33.07:804][619]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.21-21.33.07:804][619]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.21-21.33.07:804][619]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.21-21.33.07:810][619]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.21-21.33.07:810][619]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.21-21.33.07:817][619]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.21-21.33.07:930][619]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.21-21.33.07:976][619]LogExit: Exiting.
-[2018.05.21-21.33.07:989][619]Log file closed, 05/21/18 22:33:07
+[2018.05.22-11.04.50:751][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-11.04.50:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.22-11.04.50:900][  0]LogInit: Computer: CHARLIE-SAN
+[2018.05.22-11.04.50:900][  0]LogInit: User: Charlie
+[2018.05.22-11.04.50:900][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.22-11.04.50:900][  0]LogInit: High frequency timer resolution =3.020483 MHz
+[2018.05.22-11.04.50:900][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.05.22-11.04.50:907][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.22-11.04.50:908][  0]LogMemory: Process Physical Memory: 279.16 MB used, 279.16 MB peak
+[2018.05.22-11.04.50:908][  0]LogMemory: Process Virtual Memory: 282.17 MB used, 282.17 MB peak
+[2018.05.22-11.04.50:908][  0]LogMemory: Physical Memory: 5662.23 MB used,  2485.14 MB free, 8147.37 MB total
+[2018.05.22-11.04.50:908][  0]LogMemory: Virtual Memory: 714.38 MB used,  2485.14 MB free, 134217728.00 MB total
+[2018.05.22-11.04.52:129][  0]LogInit: Using OS detected language (en-GB).
+[2018.05.22-11.04.52:129][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.22-11.04.52:947][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.05.22-11.04.57:857][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.22-11.04.58:140][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.05.22-11.04.58:140][  0]LogD3D11RHI:       4043/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.22-11.04.58:145][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.22-11.04.58:145][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.22-11.04.58:145][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.22-11.04.58:156][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.22-11.04.58:157][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.22-11.04.58:157][  0]LogWindows: EnumDisplayDevices:
+[2018.05.22-11.04.58:157][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.05.22-11.04.58:157][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.05.22-11.04.58:158][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.22-11.04.58:158][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.22-11.04.58:158][  0]LogWindows:    4. 'LMIMIRR' (P:0 D:0)
+[2018.05.22-11.04.58:158][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.22-11.04.58:158][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.05.22-11.04.58:158][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.22-11.04.58:158][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.22-11.04.58:158][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.22-11.04.58:253][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.22-11.04.58:671][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.22-11.04.58:814][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Intermediate/Shaders/WorkingDirectory/8644/).
+[2018.05.22-11.04.58:814][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Charlie.CHARLIE-SAN/AppData/Local/Temp/UnrealShaderWorkingDir/20E3658D4F2AE0AC9F556092D3FC67EF/'.
+[2018.05.22-11.04.58:819][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.22-11.05.03:758][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.22-11.05.03:866][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.22-11.05.03:984][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.22-11.05.04:100][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.22-11.05.04:308][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.22-11.05.04:461][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.22-11.05.04:607][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.22-11.05.04:732][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.22-11.05.04:909][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.22-11.05.05:088][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.22-11.05.05:246][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.22-11.05.05:355][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.22-11.05.05:527][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.22-11.05.05:715][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.22-11.05.05:887][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.22-11.05.06:142][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.22-11.05.06:142][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.22-11.05.06:341][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.22-11.05.06:603][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.22-11.05.06:704][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.22-11.05.06:853][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.22-11.05.06:971][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.22-11.05.07:093][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.22-11.05.07:321][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.22-11.05.07:321][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.22-11.05.10:029][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.22-11.05.10:897][  0]LogDerivedDataCache: Loaded boot cache 0.85s 93MB C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.05.22-11.05.10:897][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.05.22-11.05.10:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.22-11.05.10:897][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.22-11.05.10:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.22-11.05.10:897][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.22-11.05.10:980][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.22-11.05.10:993][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.22-11.05.11:071][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.22-11.05.11:146][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.22-11.05.11:253][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-11.05.11:266][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-11.05.19:555][  0]LogAssetRegistry: FAssetRegistry took 0.0473 seconds to start up
+[2018.05.22-11.05.21:634][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-11.05.27:528][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.22-11.05.31:580][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.22-11.05.31:725][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.22-11.05.31:726][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.22-11.05.31:726][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.22-11.05.31:727][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.22-11.05.31:727][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.22-11.05.35:714][  0]LogNetVersion: sadhatproj , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3242127025)
+[2018.05.22-11.05.38:226][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.213554 seconds
+[2018.05.22-11.05.38:269][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.05.22-11.05.38:269][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.05.22-11.05.38:289][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.22-11.05.38:479][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.22-11.06.10:053][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.22-11.06.10:146][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.22-11.06.13:334][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.22-11.06.15:232][  0]SourceControl: Source control is disabled
+[2018.05.22-11.06.15:233][  0]SourceControl: Source control is disabled
+[2018.05.22-11.06.15:443][  0]SourceControl: Source control is disabled
+[2018.05.22-11.06.15:590][  0]SourceControl: Source control is disabled
+[2018.05.22-11.06.18:104][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.22-11.06.18:854][  0]LogOcInput: OculusInput pre-init called
+[2018.05.22-11.06.20:326][  0]LogEngine: Initializing Engine...
+[2018.05.22-11.06.20:987][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.05.22-11.06.22:440][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.22-11.06.22:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.005 s
+[2018.05.22-11.06.23:317][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.22-11.06.23:668][  0]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.06.23:740][  0]LogInit: FAudioDevice initialized.
+[2018.05.22-11.06.23:913][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/Charlie.CHARLIE-SAN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.05.22-11.06.23:920][  0]LogInit: Texture streaming: Enabled
+[2018.05.22-11.06.24:830][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.22-11.06.25:784][  0]LogInit: Transaction tracking system initialized
+[2018.05.22-11.06.27:101][  0]BlueprintLog: New page: Editor Load
+[2018.05.22-11.06.31:084][  0]LocalizationService: Localization service is disabled
+[2018.05.22-11.06.34:488][  0]LogConsoleResponse: Display: 
+[2018.05.22-11.06.37:929][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.22-11.06.37:929][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.22-11.06.37:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/' took 0.05s
+[2018.05.22-11.06.37:951][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.22-11.06.44:678][  0]SourceControl: Source control is disabled
+[2018.05.22-11.06.44:687][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-11.06.44:738][  0]LightingResults: New page: Lighting Build
+[2018.05.22-11.06.44:969][  0]MapCheck: New page: Map Check
+[2018.05.22-11.06.44:970][  0]LightingResults: New page: Lighting Build
+[2018.05.22-11.06.47:288][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.06.47:626][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-11.06.47:696][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-11.06.47:867][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 170.829ms to complete.
+[2018.05.22-11.06.47:867][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 3.180
+[2018.05.22-11.06.49:470][  0]LogCollectionManager: Loaded 0 collections in 0.023688 seconds
+[2018.05.22-11.06.49:730][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Collections/' took 0.01s
+[2018.05.22-11.06.49:730][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/Developers/Charlie/Collections/' took 0.01s
+[2018.05.22-11.06.49:730][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Content/Collections/' took 0.01s
+[2018.05.22-11.06.49:730][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.22-11.06.49:745][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2386 classes and 500 folders.
+[2018.05.22-11.06.49:970][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.05.22-11.06.51:688][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.05.22-11.06.51:898][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.22-11.06.57:659][  0]LogSlate: Took 0.012081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.22-11.06.57:705][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.sadhatproj
+[2018.05.22-11.06.57:706][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.05.22-11.06.57:706][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.05.22-11.06.57:706][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.05.22-11.06.57:706][  0]LogTemp: BranchPath = CHARLIE-SAN/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = CHARLIE-SAN/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.05.22-11.06.57:706][  0]LogSlate: Took 0.013315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.22-11.06.57:829][  0]LogTemp: MATCHED-Provision:,File:,Cert:
+[2018.05.22-11.06.57:829][  0]LogSlate: Took 0.016658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.22-11.06.58:660][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.22-11.06.59:883][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.05.22-11.06.59:883][  0]LogLoad: (Engine Initialization) Total time: 139.01 seconds
+[2018.05.22-11.06.59:883][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.22-11.06.59:904][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.22-11.06.59:904][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.22-11.07.00:462][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.22-11.07.01:074][  1]LogSlate: Took 0.015939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.22-11.07.01:209][  3]LogAssetRegistry: Asset discovery search completed in 101.6768 seconds
+[2018.05.22-11.07.01:234][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.22-11.07.01:234][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000945 seconds (updated 0 objects)
+[2018.05.22-11.09.22:799][380]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-11.09.26:053][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.09.26:066][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.09.26:169][380]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:09:26)
+[2018.05.22-11.09.26:189][380]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.09.26:275][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085663s)
+[2018.05.22-11.09.26:295][380]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.09.26:295][380]LogPlayLevel: PIE: World Init took: (0.020038s)
+[2018.05.22-11.09.26:295][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.109039s)
+[2018.05.22-11.09.26:336][380]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.09.26:351][380]LogInit: FAudioDevice initialized.
+[2018.05.22-11.09.26:463][380]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.09.26:685][380]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.09.26
+[2018.05.22-11.09.26:722][380]LogWorld: Bringing up level for play took: 0.063206
+[2018.05.22-11.09.27:004][380]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.05.22-11.09.27:022][380]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.265
+[2018.05.22-11.09.27:023][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.09.40:563][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.09.40:726][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.09.50:869][793]LogSlate: Took 0.013006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.22-11.09.51:676][793]LogSlate: Took 0.026303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.22-11.09.52:127][793]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2018.05.22-11.09.54:776][793]LogSlate: Took 0.011656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.22-11.09.55:586][794]LogSlate: Took 0.017718 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.22-11.10.49:365][492]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2018.05.22-11.11.01:014][ 86]LogSlate: Took 0.000513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.22-11.11.27:402][907]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Charlie.CHARLIE-SAN/Pictures/sadhat assets/Player.png)
+[2018.05.22-11.11.27:721][907]LogTexture: Display: Building textures: Player (AutoDXT, 64X64)
+[2018.05.22-11.13.27:755][640]LogEditorTransaction: Undo Set Vector Property
+[2018.05.22-11.13.27:767][640]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.newPlayer_C_0.CollisionCylinder) Component already registered.
+[2018.05.22-11.13.27:953][643]LogEditorTransaction: Undo Set Vector Property
+[2018.05.22-11.13.27:958][643]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.newPlayer_C_0.CollisionCylinder) Component already registered.
+[2018.05.22-11.13.28:114][648]LogEditorTransaction: Undo Set Vector Property
+[2018.05.22-11.13.28:119][648]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.newPlayer_C_0.CollisionCylinder) Component already registered.
+[2018.05.22-11.13.30:287][770]LogEditorTransaction: Undo Set Vector Property
+[2018.05.22-11.13.30:294][770]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.newPlayer_C_0.CollisionCylinder) Component already registered.
+[2018.05.22-11.13.32:592][912]LogEditorTransaction: Undo Set Vector Property
+[2018.05.22-11.13.32:602][912]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.newPlayer_C_0.CollisionCylinder) Component already registered.
+[2018.05.22-11.13.32:944][933]LogEditorTransaction: Undo Set Vector Property
+[2018.05.22-11.13.32:951][933]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.newPlayer_C_0.CollisionCylinder) Component already registered.
+[2018.05.22-11.13.33:245][952]LogEditorTransaction: Undo Set Vector Property
+[2018.05.22-11.13.33:252][952]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.newPlayer_C_0.CollisionCylinder) Component already registered.
+[2018.05.22-11.14.35:156][ 88]BlueprintLog: New page: Compile newPlayer
+[2018.05.22-11.14.40:810][486]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2018.05.22-11.14.43:648][725]Cmd: DELETE
+[2018.05.22-11.14.43:648][725]Cmd: ACTOR DELETE
+[2018.05.22-11.14.43:848][725]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2018.05.22-11.14.43:973][725]LogEditorActor: Deleted 1 Actors (0.142 secs)
+[2018.05.22-11.15.13:410][283]Cmd: MODE GRID=0
+[2018.05.22-11.15.24:210][231]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.22-11.15.39:918][378]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-11.15.39:943][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.15.39:964][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.15.39:964][378]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:15:39)
+[2018.05.22-11.15.39:964][378]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.15.39:968][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003636s)
+[2018.05.22-11.15.39:969][378]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.15.39:969][378]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2018.05.22-11.15.39:969][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004845s)
+[2018.05.22-11.15.40:066][378]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.15.40:077][378]LogInit: FAudioDevice initialized.
+[2018.05.22-11.15.40:116][378]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.15.40:119][378]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.15.40
+[2018.05.22-11.15.40:217][378]LogWorld: Bringing up level for play took: 0.099701
+[2018.05.22-11.15.40:318][378]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.439
+[2018.05.22-11.15.40:318][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.15.43:769][726]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.15.43:901][726]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.15.47:885][ 62]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2018.05.22-11.15.49:737][227]LogEditorViewport: Clicking on Actor (LMB): newPlayer_C (newPlayer)
+[2018.05.22-11.15.50:652][300]Cmd: DELETE
+[2018.05.22-11.15.50:652][300]Cmd: ACTOR DELETE
+[2018.05.22-11.15.50:652][300]LogEditorActor: Deleted Actor: newPlayer_C
+[2018.05.22-11.15.50:706][300]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2018.05.22-11.15.51:571][381]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-11.15.51:590][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.15.51:590][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.15.51:591][381]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:15:51)
+[2018.05.22-11.15.51:591][381]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.15.51:593][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002611s)
+[2018.05.22-11.15.51:594][381]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.15.51:594][381]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.05.22-11.15.51:594][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003767s)
+[2018.05.22-11.15.51:625][381]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.15.51:636][381]LogInit: FAudioDevice initialized.
+[2018.05.22-11.15.51:670][381]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.15.51:672][381]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.15.51
+[2018.05.22-11.15.51:672][381]LogWorld: Bringing up level for play took: 0.001924
+[2018.05.22-11.15.51:675][381]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.917
+[2018.05.22-11.15.51:675][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.15.52:882][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.15.52:916][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.17.23:819][277]LogSavePackage: Save=217.95ms
+[2018.05.22-11.17.23:819][277]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/2DSideScrollerExampleMap_Auto1F8C495B74417DC8E6AD390BF66DC8142.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2018.05.22-11.17.23:834][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2018.05.22-11.17.23:837][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.314
+[2018.05.22-11.17.23:837][277]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.314
+[2018.05.22-11.17.23:843][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode] ([1] browsable assets)...
+[2018.05.22-11.17.23:843][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode]
+[2018.05.22-11.17.23:868][277]LogSavePackage: Save=15.00ms
+[2018.05.22-11.17.23:868][277]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/2DSideScrollerGameMode_Auto17F94007D430EC8C155EFA0A5268E1986.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode_Auto1.uasset'
+[2018.05.22-11.17.23:870][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode_Auto1.uasset
+[2018.05.22-11.17.23:872][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/newPlayer] ([1] browsable assets)...
+[2018.05.22-11.17.23:872][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/newPlayer]
+[2018.05.22-11.17.23:913][277]LogSavePackage: Save=37.72ms
+[2018.05.22-11.17.23:913][277]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/newPlayer_Auto15929864A4C7B25758487ACAF5FA7FAAF.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/newPlayer_Auto1.uasset'
+[2018.05.22-11.17.23:918][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/newPlayer_Auto1.uasset
+[2018.05.22-11.17.23:920][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Player] ([1] browsable assets)...
+[2018.05.22-11.17.23:960][277]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Blueprints/Player.Player]
+[2018.05.22-11.17.23:960][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Player]
+[2018.05.22-11.17.24:001][277]LogSavePackage: Save=36.65ms
+[2018.05.22-11.17.24:001][277]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Player_Auto1318B8C004197F75DC9DD2E9FB32532D5.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Player_Auto1.uasset'
+[2018.05.22-11.17.24:004][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Player_Auto1.uasset
+[2018.05.22-11.17.24:006][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Player_Sprite] ([1] browsable assets)...
+[2018.05.22-11.17.24:017][277]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Player_Sprite.Player_Sprite]
+[2018.05.22-11.17.24:017][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Player_Sprite]
+[2018.05.22-11.17.24:027][277]LogSavePackage: Save=6.53ms
+[2018.05.22-11.17.24:027][277]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Player_Sprite_Auto18DC8101B44BD7A9CC2BF4BAE7AD00F26.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Player_Sprite_Auto1.uasset'
+[2018.05.22-11.17.24:033][277]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Player_Sprite_Auto1.uasset
+[2018.05.22-11.17.24:033][277]LogFileHelpers: Auto-saving content packages took 0.194
+[2018.05.22-11.21.30:847][834]BlueprintLog: New page: Compile newPlayer
+[2018.05.22-11.22.32:892][920]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-11.22.32:914][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.22.32:915][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.22.32:915][920]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:22:32)
+[2018.05.22-11.22.32:916][920]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.22.32:919][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003778s)
+[2018.05.22-11.22.32:921][920]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.22.32:921][920]LogPlayLevel: PIE: World Init took: (0.001649s)
+[2018.05.22-11.22.32:921][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005753s)
+[2018.05.22-11.22.32:952][920]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.22.32:963][920]LogInit: FAudioDevice initialized.
+[2018.05.22-11.22.32:998][920]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.22.33:001][920]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.22.33
+[2018.05.22-11.22.33:001][920]LogWorld: Bringing up level for play took: 0.002060
+[2018.05.22-11.22.33:003][920]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.246
+[2018.05.22-11.22.33:004][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.22.35:674][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.22.35:707][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.22.51:207][377]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2018.05.22-11.22.56:555][895]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.22-11.22.57:482][983]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-11.22.57:500][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.22.57:500][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.22.57:501][983]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:22:57)
+[2018.05.22-11.22.57:501][983]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.22.57:504][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003209s)
+[2018.05.22-11.22.57:505][983]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.22.57:505][983]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.05.22-11.22.57:505][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004291s)
+[2018.05.22-11.22.57:537][983]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.22.57:545][983]LogInit: FAudioDevice initialized.
+[2018.05.22-11.22.57:581][983]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.22.57:583][983]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.22.57
+[2018.05.22-11.22.57:583][983]LogWorld: Bringing up level for play took: 0.001942
+[2018.05.22-11.22.57:585][983]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.828
+[2018.05.22-11.22.57:586][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.25.51:171][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.25.51:215][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.26.14:808][594]Cmd: MODE GRID=1
+[2018.05.22-11.26.20:178][897]BlueprintLog: New page: Compile newPlayer
+[2018.05.22-11.26.23:994][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.26.23:994][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.26.23:994][ 99]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:26:23)
+[2018.05.22-11.26.23:994][ 99]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.26.23:997][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002659s)
+[2018.05.22-11.26.23:997][ 99]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.26.23:998][ 99]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.05.22-11.26.23:998][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003760s)
+[2018.05.22-11.26.24:027][ 99]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.26.24:037][ 99]LogInit: FAudioDevice initialized.
+[2018.05.22-11.26.24:095][ 99]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.26.24:098][ 99]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.26.24
+[2018.05.22-11.26.24:098][ 99]LogWorld: Bringing up level for play took: 0.002090
+[2018.05.22-11.26.24:108][ 99]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.649
+[2018.05.22-11.26.24:109][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.26.24:160][ 99]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.05.22-11.26.29:652][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.26.29:703][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.26.54:241][829]Cmd: MODE GRID=0
+[2018.05.22-11.26.57:806][ 39]BlueprintLog: New page: Compile newPlayer
+[2018.05.22-11.26.58:749][ 77]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.22-11.26.58:767][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.26.58:768][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.26.58:768][ 77]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:26:58)
+[2018.05.22-11.26.58:768][ 77]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.26.58:770][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002599s)
+[2018.05.22-11.26.58:772][ 77]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.26.58:772][ 77]LogPlayLevel: PIE: World Init took: (0.001553s)
+[2018.05.22-11.26.58:772][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004493s)
+[2018.05.22-11.26.58:806][ 77]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.26.58:815][ 77]LogInit: FAudioDevice initialized.
+[2018.05.22-11.26.58:871][ 77]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.26.58:873][ 77]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.26.58
+[2018.05.22-11.26.58:874][ 77]LogWorld: Bringing up level for play took: 0.002151
+[2018.05.22-11.26.58:883][ 77]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.125
+[2018.05.22-11.26.58:884][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.07:206][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.07:259][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.32:902][ 60]BlueprintLog: New page: Compile newPlayer
+[2018.05.22-11.27.35:034][209]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.22-11.27.35:052][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.35:052][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.27.35:052][209]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:27:35)
+[2018.05.22-11.27.35:052][209]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.27.35:055][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002697s)
+[2018.05.22-11.27.35:055][209]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.27.35:056][209]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2018.05.22-11.27.35:056][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003935s)
+[2018.05.22-11.27.35:085][209]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.27.35:095][209]LogInit: FAudioDevice initialized.
+[2018.05.22-11.27.35:151][209]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.27.35:154][209]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.27.35
+[2018.05.22-11.27.35:154][209]LogWorld: Bringing up level for play took: 0.002187
+[2018.05.22-11.27.35:164][209]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.407
+[2018.05.22-11.27.35:165][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.46:763][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.46:819][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.54:654][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.22-11.27.58:285][725]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.22-11.27.58:301][725]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.27.58:301][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-11.27.58:302][725]PIE: New page: PIE session: 2DSideScrollerExampleMap (22 May 2018 13:27:58)
+[2018.05.22-11.27.58:302][725]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.05.22-11.27.58:305][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002613s)
+[2018.05.22-11.27.58:305][725]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.05.22-11.27.58:305][725]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2018.05.22-11.27.58:306][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003729s)
+[2018.05.22-11.27.58:331][725]LogInit: XAudio2 using 'T24D390 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-11.27.58:341][725]LogInit: FAudioDevice initialized.
+[2018.05.22-11.27.58:394][725]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.05.22-11.27.58:396][725]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.05.22-12.27.58
+[2018.05.22-11.27.58:397][725]LogWorld: Bringing up level for play took: 0.001941
+[2018.05.22-11.27.58:404][725]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.353
+[2018.05.22-11.27.58:404][725]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.28.05:954][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.28.06:010][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.05.22-11.30.54:613][520]LogSavePackage: Save=60.89ms
+[2018.05.22-11.30.54:613][520]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/2DSideScrollerExampleMap_Auto26025DA854AFEF9861AA3A7B1EBE17AD1.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2018.05.22-11.30.54:615][520]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap
+[2018.05.22-11.30.54:618][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.099
+[2018.05.22-11.30.54:618][520]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.099
+[2018.05.22-11.30.54:623][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/newPlayer] ([1] browsable assets)...
+[2018.05.22-11.30.54:623][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/newPlayer]
+[2018.05.22-11.30.54:693][520]LogSavePackage: Save=65.26ms
+[2018.05.22-11.30.54:693][520]LogSavePackage: Moving '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/newPlayer_Auto2302DB8674048274655427CAC08D0B94F.tmp' to '../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/newPlayer_Auto2.uasset'
+[2018.05.22-11.30.54:695][520]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Charlie.CHARLIE-SAN/Documents/GitHub/sadhatgame/sadhatproj/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/newPlayer_Auto2.uasset
+[2018.05.22-11.30.54:695][520]LogFileHelpers: Auto-saving content packages took 0.075
